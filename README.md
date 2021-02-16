@@ -1,2 +1,5 @@
 # Student-and-Teacher-Database-Application
-Some information about students and teachers from the database.(Name, Surname, School ID, Lecture)
+• It is a UI application which is student and teacher informations are stored in SQLite database system.
+
+
+

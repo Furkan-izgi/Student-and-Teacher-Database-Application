@@ -30,7 +30,7 @@ def command_help():
     
     help_window.mainloop()
     
-def students_open():
+def students_open(): #This is the student side.
 
     def get_selected_row(event):
         global selected_tuple
@@ -101,24 +101,24 @@ def students_open():
 
     list1.bind("<<ListboxSelect>>", get_selected_row)
 
-    b1 = Button(student, text="View all", width=12,command= view_command)
+    b1 = Button(student, text="View all", width=12,command= view_command) #View All
     b1.grid(row=14, column=3)
 
-    b2 = Button(student, text="Search entry", width=12,command=search_command)
+    b2 = Button(student, text="Search entry", width=12,command=search_command) #Search
     b2.grid(row=15, column=3)
 
-    b3 = Button(student, text="Add", width=12,command=add_command)
+    b3 = Button(student, text="Add", width=12,command=add_command) #Add
     b3.grid(row=16, column=3)
 
-    b4 = Button(student, text="Delete selected", width=12,command=delete_command)
+    b4 = Button(student, text="Delete selected", width=12,command=delete_command) #Delete
     b4.grid(row=17, column=3)
 
-    b5 = Button(student, text="Update selected", width=12,command=update_command)
+    b5 = Button(student, text="Update selected", width=12,command=update_command) #Update
     b5.grid(row=18, column=3)
 
     student.mainloop()
 
-def teachers_open():
+def teachers_open(): #Teacher side.
     
     def get_selected_row(event):
         global selected_tuple
@@ -190,19 +190,19 @@ def teachers_open():
 
     list1.bind('<<ListboxSelect>>', get_selected_row)
 
-    b1 = Button(teacher, text="View all", width=12,command = view_command)
+    b1 = Button(teacher, text="View all", width=12,command = view_command) #View All
     b1.grid(row=14, column=3)
 
-    b2 = Button(teacher, text="Search entry", width=12,command = search_command)
+    b2 = Button(teacher, text="Search entry", width=12,command = search_command) #Search
     b2.grid(row=15, column=3)
 
-    b3 = Button(teacher, text="Add", width=12,command = add_command)
+    b3 = Button(teacher, text="Add", width=12,command = add_command) #Add
     b3.grid(row=16, column=3)
 
-    b4 = Button(teacher, text="Delete selected", width=12,command = delete_command)
+    b4 = Button(teacher, text="Delete selected", width=12,command = delete_command) #Delete
     b4.grid(row=17, column=3)
 
-    b5 = Button(teacher, text="Update selected", width=12,command =update_command )
+    b5 = Button(teacher, text="Update selected", width=12,command =update_command) #Update
     b5.grid(row=18, column=3)
 
     teacher.mainloop()
@@ -216,6 +216,7 @@ window_main.resizable(width=False,height=False)
 l1 = Label(window_main, text= "Student and Teacher Database Application",width = 100,font = "10")
 l1.pack(side=TOP,pady=10)
 
+#Database Selection part
 b1 = Button(window_main, text ="STUDENT",width = 20,height = 10,command = students_open)
 b1.place(x=20, y=85)
 

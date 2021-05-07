@@ -12,7 +12,7 @@
 • Note: Please run the application from the "run as administrator" option.
 
 
-UPDATE v2(Coming Soon!)
+○ UPDATE v2 (Coming Soon!) ○
 
 •I changed every GUI screen and made a modern new GUIs for you!
 

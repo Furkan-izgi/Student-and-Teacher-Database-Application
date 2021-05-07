@@ -14,7 +14,7 @@
 
 ○ UPDATE v2 (Coming Soon!) ○
 
-•I changed every GUI screen and made a modern new GUIs for you!
+•I changed all GUI screens and made modern new GUIs for you!
 
 ![Login_Screen](https://user-images.githubusercontent.com/76229401/117517476-d0f2c300-afa4-11eb-8bbd-dfddcad512b3.png)
 

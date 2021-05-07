@@ -17,13 +17,16 @@ UPDATE v2(Coming Soon!)
 •I changed every GUI screen and made a modern new GUIs for you!
 
 ![Login_Screen](https://user-images.githubusercontent.com/76229401/117517476-d0f2c300-afa4-11eb-8bbd-dfddcad512b3.png)
+
 This is login screen
                                                
                                                         
 ![Database_Selection_Screen](https://user-images.githubusercontent.com/76229401/117517571-0eefe700-afa5-11eb-9b02-1c671d0aa2fd.png)
+
 This is Database Selection Screen
 
 ![Teacher_Side](https://user-images.githubusercontent.com/76229401/117517617-3b0b6800-afa5-11eb-842f-f3088dd96ed9.png)
+
 This is the example of a database management screen
 
 I'm planning to publish the update in the last quarter of 2021(Maybe November, maybe December).
